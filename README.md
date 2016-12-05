@@ -2,8 +2,11 @@
 Patched version of pidgin to change the tray icon when an account is disconnected or network is down 
 
 Following those ignored tickets :
+
 https://developer.pidgin.im/ticket/1152
+
 https://developer.pidgin.im/ticket/181
+
 etc. 
 
 Pidgin have a serious lack when it comes to notifying the connection state, when network is down, an account is no more connected or when any network error happen. 
