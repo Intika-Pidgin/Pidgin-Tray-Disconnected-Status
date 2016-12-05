@@ -16,6 +16,20 @@ Concretely this version, change the status of all active accounts to "Away" when
 
 In my case i made that modification because sometime i am off the network or i change the connection from wifi to lan etc. while pidgin always notify me that i am online in the tray icon which is not correct. Also when an account have a network issue pidgin default behavior always display online/available status. 
 
+# Version : 
+2.11.0
+
+# Testing the patch :
+**Linux :**
+Download pidgin source
+Replace "pidgin-2.11.0/pidgin/gtkblist.c" by the one provided here 
+Compile and install 
+
+**Windows :**
+Copy pidgin.exe and pidgin.dll to install folder
+or 
+Use same instruction as linux
+
 # Known Issue : 
 i will nor correct those issue as this patched version is a workaround 
 - When an account have different status from "available" while the network issue is happening the account status is changed to away... also when the network issue is auto solved the account is set to available not the last state  
