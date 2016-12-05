@@ -27,4 +27,14 @@ Adding a new status let say "network problem" and change the tray icon to that s
 Here is what the patch changed 
 
 **pidgin-2.11.0/pidgin/gtkblist.c**
+Changing those 2 funtion : **add_generic_error_dialog** and **remove_generic_error_dialog** 
+
+
+{
+
+static int how_many_time_changed_to_offline = 0;
+
+}
+
+
 
