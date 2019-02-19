@@ -1,7 +1,7 @@
-# Pidgin_Notify_Disconnected_To_Tray_Icon
+# Pidgin-Tray-Disconnected-Status
 Patched version of pidgin to change the tray icon when an account is disconnected or network is down 
 
-Following those ignored tickets :
+Following:
 
 https://developer.pidgin.im/ticket/1152
 
